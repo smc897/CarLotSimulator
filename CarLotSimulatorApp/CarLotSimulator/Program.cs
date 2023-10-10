@@ -33,6 +33,8 @@ namespace CarLotSimulator
             Car car2 = new Car(2003, "Honda", "Civic", "vroom", "beep", true);
             Car car3 = new Car(2006, "Chevrolet", "Suburban", "vroom", "getOutOfMYWay", true);
 
+            Console.WriteLine($"number of cars: {CarLot.numberOfCars}");
+
             car1.MakeEngineNoise("Hiss");
             car1.MakeHonkNoise("beeeep");
             car2.MakeEngineNoise("Hiss");
