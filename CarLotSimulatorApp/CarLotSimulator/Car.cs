@@ -27,9 +27,9 @@ namespace CarLotSimulator
         }
 
         //make engine noise
-        public void MakeEngineNoise(string Engine) { Console.WriteLine($"{Engine} "); }
+        public void MakeEngineNoise(string engine) { Console.WriteLine($"{engine} "); }
 
         //make honk noise
-        public void MakeHonkNoise(string Honk) { Console.WriteLine($"{Honk} "); }
+        public void MakeHonkNoise(string honk) { Console.WriteLine($"{honk} "); }
     }
 }
